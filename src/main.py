@@ -45,6 +45,7 @@ def generate_publickey():
 
 def generate_privatekey():
     return pow(E,-1,T)
+
 def Encryption():
     return pow(Message,E,N)
 
